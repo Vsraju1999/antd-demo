@@ -111,9 +111,9 @@ export const App: React.FC = () => {
           <Content>
             <Routes>
               <Route path="/antd-demo/" element={<Dashboard />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/approval" element={<Approval />} />
-              <Route path="/queue" element={<Queue />} />
+              <Route path="/antd-demo/projects" element={<Projects />} />
+              <Route path="/antd-demo/approval" element={<Approval />} />
+              <Route path="/antd-demo/queue" element={<Queue />} />
             </Routes>
           </Content>
         </Flex>
