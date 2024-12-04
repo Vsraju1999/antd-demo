@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/antd-demo/static/css/main.650ddf1d.css",
-    "main.js": "/antd-demo/static/js/main.04940839.js",
+    "main.js": "/antd-demo/static/js/main.735cbf0b.js",
     "index.html": "/antd-demo/index.html",
     "main.650ddf1d.css.map": "/antd-demo/static/css/main.650ddf1d.css.map",
-    "main.04940839.js.map": "/antd-demo/static/js/main.04940839.js.map"
+    "main.735cbf0b.js.map": "/antd-demo/static/js/main.735cbf0b.js.map"
   },
   "entrypoints": [
     "static/css/main.650ddf1d.css",
-    "static/js/main.04940839.js"
+    "static/js/main.735cbf0b.js"
   ]
 }
