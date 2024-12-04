@@ -8,11 +8,9 @@ import {
 } from "@ant-design/icons";
 import { Button, Flex, Layout, Menu } from "antd";
 import {
-  BrowserRouter as Router,
   Route,
   Routes,
   useNavigate,
-  useSearchParams,
 } from "react-router-dom";
 import "./App.css";
 import { Approval, Dashboard, Projects, Queue } from "./Components";
@@ -112,7 +110,7 @@ export const App: React.FC = () => {
         <Flex>
           <Content>
             <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route path="/antd-demo/" element={<Dashboard />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/approval" element={<Approval />} />
               <Route path="/queue" element={<Queue />} />
